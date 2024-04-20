@@ -1,0 +1,21 @@
+{
+  "name": "e2e-rarecircles",
+  "version": "1.0.0",
+  "description": "Rarecircles assessment - Mike Beron",
+  "main": "index.js",
+  "scripts": {
+    "open cypress": "npx cypress open",
+    "run record": "npx cypress run --record --key 0843fe95-9aff-4ab4-8938-74a5aad86a23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeberon/e2e-rarecircles.git"
+  },
+  "author": "Mike Beron",
+  "license": "ISC",
+  "homepage": "https://github.com/mikeberon/e2e-rarecircles#readme",
+  "devDependencies": {
+    "cypress": "^13.8.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
