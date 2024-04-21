@@ -1,0 +1,33 @@
+{
+    "USER": {
+        "EMAIL_TXTBOX": "//input[@type='email']",
+        "TERMS_CHKBOX": "//input[@type='checkbox']",
+        "CONTINUE_BTN": "//button[@type='submit']"
+    },
+    "PROFILE": {
+        "NAME_TXTBOX": "//input[@name='organizationName']",
+        "URL_TXTBOX": "//input[@name='organizationName']/following::input",
+        "TEST_URL": "test",
+        "CATEGORY_DRPDOWN": "//button[@type='submit']",
+        "CAT_RUNNING": "//li[@role='option' and contains(text(), 'Running')]",
+        "CAT_CYCLING": "//li[@role='option' and contains(text(), 'Cycling')]",
+        "CAT_OUTDOORS": "//li[@role='option' and contains(text(), 'Outdoors')]",
+        "CAT_YOGA": "//li[@role='option' and contains(text(), 'Yoga & Wellness')]",
+        "CAT_GOLF": "//li[@role='option' and contains(text(), 'Golf')]",
+        "CAT_SKI": "//li[@role='option' and contains(text(), 'Ski & Snowboard')]",
+        "CAT_SPORTING": "//li[@role='option' and contains(text(), 'Sporting Goods')]",
+        "CAT_SPECIALTY": "//li[@role='option' and contains(text(), 'Specialty Retail')]",
+        "CAT_OTHERS": "//li[@role='option' and contains(text(), 'Other')]",
+        "CREATE_BTN": "//button[@type='submit' and contains(text(), 'Create')]"
+    },
+    "PROGRAMS": {
+        "LOYALTY": "//p[contains(text(), 'Loyalty programs')]",
+        "COMMUNITY": "//p[contains(text(), 'Community programs')]",
+        "CONTINUE_BTN": "//button[contains(text(), 'Continue')]"
+    },
+    "LOYALTY_STRATEGY": {
+        "PAID": "//p[contains(text(), 'Paid')]",
+        "POITNS": "//p[contains(text(), 'Points')]",
+        "NEXT_BTN": "//button[contains(text(), 'Next')]"
+    }
+}
