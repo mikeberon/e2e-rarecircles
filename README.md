@@ -1,6 +1,27 @@
 # e2e-rarecircles
 e2e scripts for assessment in [portal.rarecircles](https://portal.rarecircles.com/)
 
+
+
+# Task #1: we want you to automate tests for the signup flow of our
+application—https://portal.rarecircles.com/signup
+● Done - Implement a solution using one of the following frameworks: selenium, cypress, or
+playwright (note: we currently use cypress for our own automation tests) 
+● Done - Ensure emails that you use are suffixed with +test[1..N] — eg. -> See commands.js/cy.fillOutRegistrationPage where logic for this is found
+pietro+test@rarecircles.com (note: we purge testing accounts on a recurring basis)
+● Done - Provide commentary on how your implementation can be improved.
+● Done - Provide the generated report. -> This can be easily viewed in the cypress dashboard page
+
+# Task #2: once signed up, we want you to automate tests for our
+onboarding flow (until the paywall)
+● Done - Implement a solution using one of the following frameworks: selenium, cypress, or
+playwright (note: we currently use cypress for our own automation tests)
+● Done - Ensure emails that you use are suffixed with +test[1..N] — eg. -> See commands.js/cy.fillOutRegistrationPage where logic for this is found
+pietro+test@rarecircles.com (note: we purge testing accounts on a recurring basis)
+● Done - Provide commentary on how your implementation can be improved.
+● Done - Provide the generated report. - This can be easily viewed in the cypress dashboard page
+ 
+
 # Setting up repository (VIA NPM)
 1. Created repository (https://github.com/mikeberon/e2e-rarecircles.git)
 2. git clone https://github.com/mikeberon/e2e-rarecircles.git
@@ -14,6 +35,7 @@ e2e scripts for assessment in [portal.rarecircles](https://portal.rarecircles.co
 
 # registration.cy.js - cypress/e2e/registration.cy.js
 # Blocker: verification/login code since switching tabs is a limitation of cypress. Also, I am not comfortable logging my personal email with cypress
+# The flow is disrupted due to cypress' limitation with switching tabs. Refer to: https://docs.cypress.io/guides/references/trade-offs
 
 # Fixtures: 
 

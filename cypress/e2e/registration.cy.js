@@ -13,6 +13,9 @@ describe('Registration until payment', () => {
         cy.chooseProgram('Loyalty programs');
         //Choice under Loyalty programs are (case-sensitive): Paid, Points
         cy.chooseStrategy('Paid')
+
+        //The flow is disrupted due to cypress' limitation with switching tabs. Refer to: https://docs.cypress.io/guides/references/trade-offs
+        //Generated report can be easily seen in the cypress dashboard
     });
 
 
