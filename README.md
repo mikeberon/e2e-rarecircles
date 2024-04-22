@@ -1,7 +1,8 @@
 # e2e-rarecircles
 e2e scripts for assessment in [portal.rarecircles](https://portal.rarecircles.com/)
 
-
+# Recently added: JENKINS PIPELINE (CI/CD)
+- e2e-rarecircles/jenkins.groovy for jenkins pipeline template
 
 # Task #1: we want you to automate tests for the signup flow of our
 application—https://portal.rarecircles.com/signup
