@@ -12,7 +12,6 @@ pipeline {
         LATEST_REPORT_DIR_JENKINS = "${REPORTS_DIR_JENKINS}/${BUILD_NUMBER}"
         NPM_GLOBAL = "/home/.npm-global"
         REPORTS_DIR = "/home/jenkins/workspace/e2e-rarecircles/cypress/reports/mocha/.jsons" // Updated report directory
-        // MOCHAWESOME_DIR = "/home/wonders/jenkins/workspace/e2e-rarecircles/node_modules/mochawesome-merge/bin"
         CYPRESS_PROJECT_ID = 's8i7qb' // Replace with your actual project ID
         CYPRESS_RUN_ID = '' // Initialize Cypress run ID
         CI_BUILD_ID = new Date().getTime().toString() // Capture current timestamp for Cypress build ID
